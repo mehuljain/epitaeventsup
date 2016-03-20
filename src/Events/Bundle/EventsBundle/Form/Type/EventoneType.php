@@ -59,7 +59,7 @@ class EventoneType extends AbstractType {
                 ),
             'expanded' => true,
             'multiple' => false,
-            'label' => 'Wednesday, 23rd March Events(2pm - 3:30pm)',
+            'label' => 'Thursday, 24th March Events(2pm - 3:30pm)',
             'required' => false,
             'data' => $eventtype1,
         ));
@@ -70,7 +70,7 @@ class EventoneType extends AbstractType {
                 ),
             'expanded' => true,
             'multiple' => false,
-            'label' => 'Wednesday, 23rd March Events(4pm - 5:30pm)',
+            'label' => 'Thursday, 24th March Events(4pm - 5:30pm)',
             'required' => false,        
             'data' =>  $eventtype2,
         ));
@@ -84,7 +84,7 @@ class EventoneType extends AbstractType {
                 ),
             'expanded' => true,
             'multiple' => false,
-            'label' => 'Thursday, 24th March Events(2pm - 3:30pm)',
+            'label' => 'Friday, 25th March Events(2pm - 3:30pm)',
             'required' => false,
             'data' => $eventtype3,
         ));
@@ -96,7 +96,7 @@ class EventoneType extends AbstractType {
                 ),
             'expanded' => true,
             'multiple' => false,
-            'label' => 'Thursday, 24th March Events(4pm - 5:30pm)',
+            'label' => 'Friday, 25th March Events(4pm - 5:30pm)',
             'required' => false,
             'data' => $eventtype4,
         ));

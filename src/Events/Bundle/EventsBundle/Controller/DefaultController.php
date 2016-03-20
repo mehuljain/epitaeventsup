@@ -403,7 +403,7 @@ class DefaultController extends Controller {
             $url = $this->generateUrl($route);
             $this->container->get('session')->getFlashBag()->add('success', 'We have your registrations for the events on Wednesday and Thursday. Thank you!');
             $message = \Swift_Message::newInstance()
-                    ->setSubject('EPITA International - Your Registrations for Wednesday, 23rd March and Thursday 24th March 2016')
+                    ->setSubject('EPITA International - Your Registrations for Thursday, 24th March and Friday 25th March 2016')
                     ->setFrom('epitaevents2016@gmail.com')
                     ->setTo($user->getEmailCanonical())
                     ->setContentType("text/html")
