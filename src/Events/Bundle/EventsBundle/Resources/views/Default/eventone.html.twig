@@ -14,6 +14,10 @@
               <div id="main">
 {% block content %}
     <p>Please register for the events to be held on Wednesday(23rd March 2016) and Thursday(24th March 2016)</p>
+    <ul>
+        <li>Please select any one cultural shock presentation and any one University Presentation</li>        
+        <li>Maximum 2 events per student</li>
+    </ul>
     {% for flashMessage in app.session.flashbag.get('error') %}        
     <div class="flash-error">
         {{ flashMessage }}

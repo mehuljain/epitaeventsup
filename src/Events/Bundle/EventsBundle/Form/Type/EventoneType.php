@@ -55,8 +55,7 @@ class EventoneType extends AbstractType {
        //Eventtype1
        $builder->add('eventtype1','choice',array(
             'choices' => array('1' => 'Préparation au choc culturel 1(2pm - 3:30pm)', 
-                               '2' => 'Study Abroad at CSUMB(2pm - 3pm)',
-                               '12' => 'None of the above',
+                               '2' => 'Study Abroad at CSUMB(2pm - 3pm)'
                 ),
             'expanded' => true,
             'multiple' => false,
@@ -67,8 +66,7 @@ class EventoneType extends AbstractType {
        //Eventtype2
         $builder->add('eventtype2','choice',array(
             'choices' => array('3' => 'Préparation au choc culturel 2(4pm - 5:30pm)', 
-                               '4' => 'Study Abroad at Stafford(4pm - 5pm)',
-                               '12' => 'None of the above',
+                               '4' => 'Study Abroad at Stafford(4pm - 5pm)'
                 ),
             'expanded' => true,
             'multiple' => false,
@@ -82,8 +80,7 @@ class EventoneType extends AbstractType {
             'choices' => array('5' => 'Study Abroad at Griffith College Dublin(2pm - 3pm)', 
                                '6' => 'Study Abroad at Boston University(2pm - 3pm)',
                                '7' => 'Study Abroad at Ahlia University(2pm - 3pm)',
-                               '8' => 'Préparation au choc culturel 3(2pm - 3:30pm)',
-                               '12'=> 'None of the above',
+                               '8' => 'Préparation au choc culturel 3(2pm - 3:30pm)',                           
                 ),
             'expanded' => true,
             'multiple' => false,
@@ -94,9 +91,8 @@ class EventoneType extends AbstractType {
        //Eventtype4
         $builder->add('eventtype4','choice',array(
             'choices' => array('9' => 'Study Abroad at CSU-Channel Islands(4pm - 5pm)', 
-                               '10' => 'Study Abroad at Oxford Brookes',
-                               '11' => 'Préparation au choc culturel 4',
-                               '12'=> 'None of the above',
+                               '10' => 'Study Abroad at Oxford Brookes(4pm - 5pm)',
+                               '11' => 'Préparation au choc culturel 4(4pm - 5:30pm)',
                 ),
             'expanded' => true,
             'multiple' => false,
